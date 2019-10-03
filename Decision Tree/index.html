@@ -38,11 +38,11 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.1">
     
     
       
-        <title>DECISION TREES - (180411100063) Nadia Asri</title>
+        <title>statistik deskriptif - (180411100063) Nadia Asri</title>
       
     
     
@@ -144,7 +144,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                DECISION TREES
+                statistik deskriptif
               
             </span>
           
@@ -210,7 +210,7 @@
         
       
       
-      <main class="md-main" role="main">
+      <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -273,6 +273,127 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../jarak data/" title="Jarak Data" class="md-nav__link">
+      Jarak Data
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Missing Value/" title="Missing Value" class="md-nav__link">
+      Missing Value
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        statistik deskriptif
+      </label>
+    
+    <a href="./" title="statistik deskriptif" class="md-nav__link md-nav__link--active">
+      statistik deskriptif
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#classification" title="Classification" class="md-nav__link">
+    Classification
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decision-tree-terdiri-dari" title="Decision Tree terdiri dari:" class="md-nav__link">
+    Decision Tree terdiri dari:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm" title="Algorithm" class="md-nav__link">
+    Algorithm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entropy" title="Entropy" class="md-nav__link">
+    Entropy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-gain" title="Information Gain" class="md-nav__link">
+    Information Gain
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-berikut-untuk-menghitung-entropygain-yang-ada-di-tiap-data-tersebut-menggunakan-hitugan-manual" title="Data Berikut untuk menghitung Entropy,Gain yang ada di tiap data tersebut menggunakan hitugan manual :" class="md-nav__link">
+    Data Berikut untuk menghitung Entropy,Gain yang ada di tiap data tersebut menggunakan hitugan manual :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -294,7 +415,7 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#classification" class="md-nav__link">
+  <a href="#classification" title="Classification" class="md-nav__link">
     Classification
   </a>
   
@@ -302,7 +423,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#decision-tree-terdiri-dari" class="md-nav__link">
+  <a href="#decision-tree-terdiri-dari" title="Decision Tree terdiri dari:" class="md-nav__link">
     Decision Tree terdiri dari:
   </a>
   
@@ -314,21 +435,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#algorithm" class="md-nav__link">
+  <a href="#algorithm" title="Algorithm" class="md-nav__link">
     Algorithm
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#entropy" class="md-nav__link">
+  <a href="#entropy" title="Entropy" class="md-nav__link">
     Entropy
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#information-gain" class="md-nav__link">
+  <a href="#information-gain" title="Information Gain" class="md-nav__link">
     Information Gain
   </a>
   
@@ -336,7 +457,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#data-berikut-untuk-menghitung-entropygain-yang-ada-di-tiap-data-tersebut-menggunakan-hitugan-manual" class="md-nav__link">
+  <a href="#data-berikut-untuk-menghitung-entropygain-yang-ada-di-tiap-data-tersebut-menggunakan-hitugan-manual" title="Data Berikut untuk menghitung Entropy,Gain yang ada di tiap data tersebut menggunakan hitugan manual :" class="md-nav__link">
     Data Berikut untuk menghitung Entropy,Gain yang ada di tiap data tersebut menggunakan hitugan manual :
   </a>
   
@@ -1063,6 +1184,27 @@ MathJax.Hub.Config({
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Missing Value/" title="Missing Value" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Missing Value
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
