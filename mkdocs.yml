@@ -1,0 +1,52 @@
+# Project information
+site_name: '(180411100063) Nadia Asri'
+site_description: 'Repository Untuk Tugas'
+site_author: 'Nadia Asri'
+site_url: 'https://NadiaAsri.github.io/'
+
+# Repository
+repo_name: 'Nadia Asri'
+repo_url: 'https://github.com/nadiaasri'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 Nadia Asri'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'instagram'
+      link: 'https://www.instagram.com/dysrine/'
+    - type: 'github'
+      link: 'https://github.com/NadiaAsri'
+
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+nav :
+  - index : index.md
+  - statistik deskriptif : Statistik Dekriptif.md
+  - Jarak Data : jarak data.md
+  - Missing Value : Missing Value.md
+  - statistik deskriptif : Decision Tree.md
+  - K-Means Clustering : K-Means Clustering.md
