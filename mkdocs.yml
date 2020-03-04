@@ -2,7 +2,7 @@
 site_name: '(180411100063) Nadia Asri'
 site_description: 'Repository Untuk Tugas'
 site_author: 'Nadia Asri'
-site_url: 'https://NadiaAsri.github.io/'
+site_url: 'https://NadiaAsri2.github.io/'
 
 # Repository
 repo_name: 'Nadia Asri'
@@ -45,8 +45,4 @@ markdown_extensions:
       permalink: true
 nav :
   - index : index.md
-  - statistik deskriptif : Statistik Dekriptif.md
-  - Jarak Data : jarak data.md
-  - Missing Value : Missing Value.md
-  - statistik deskriptif : Decision Tree.md
-  - K-Means Clustering : K-Means Clustering.md
+  - Eror Dalam Komputasi Numerik : Eror Dalam Komputasi Numerik.md
