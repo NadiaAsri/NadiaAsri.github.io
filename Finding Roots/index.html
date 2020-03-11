@@ -1,0 +1,963 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Repository Untuk Tugas">
+      
+      
+        <link rel="canonical" href="https://NadiaAsri.github.io/Finding Roots/">
+      
+      
+        <meta name="author" content="Nadia Asri">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Finding roots - (180411100063) Nadia Asri</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="../manifest.webmanifest">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-XXXXXXXX-X", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#mencari-akar-persamaan" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://NadiaAsri.github.io/" title="(180411100063) Nadia Asri" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              (180411100063) Nadia Asri
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Finding roots
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/nadiaasri/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Nadia Asri
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href=".." class="md-tabs__link">
+          Penambangan Data
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../profil/" class="md-tabs__link md-tabs__link--active">
+          Komputasi Numerik
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://NadiaAsri.github.io/" title="(180411100063) Nadia Asri" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    (180411100063) Nadia Asri
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/nadiaasri/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Nadia Asri
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Penambangan Data
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Penambangan Data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="index" class="md-nav__link">
+      index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Statistik Dekriptif/" title="statistik deskriptif" class="md-nav__link">
+      statistik deskriptif
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jarak data/" title="Jarak Data" class="md-nav__link">
+      Jarak Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Missing Value/" title="Missing Value" class="md-nav__link">
+      Missing Value
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Decision Tree/" title="statistik deskriptif" class="md-nav__link">
+      statistik deskriptif
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../K-Means Clustering/" title="K-Means Clustering" class="md-nav__link">
+      K-Means Clustering
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../regresi/" title="Regresi Linear" class="md-nav__link">
+      Regresi Linear
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Komputasi Numerik
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Komputasi Numerik
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../profil/" title="index" class="md-nav__link">
+      index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Eror Dalam Komputasi Numerik/" title="Eror Dalam Komputasi Numerik" class="md-nav__link">
+      Eror Dalam Komputasi Numerik
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Finding roots
+      </label>
+    
+    <a href="./" title="Finding roots" class="md-nav__link md-nav__link--active">
+      Finding roots
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-metode-bisection" class="md-nav__link">
+    1. Metode Bisection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metode-newtoon-raphson" class="md-nav__link">
+    2. Metode Newtoon - Raphson
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metode-regula-falsi" class="md-nav__link">
+    3. Metode Regula - Falsi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-metode-secant" class="md-nav__link">
+    4. Metode Secant
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-metode-bisection" class="md-nav__link">
+    1. Metode Bisection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metode-newtoon-raphson" class="md-nav__link">
+    2. Metode Newtoon - Raphson
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metode-regula-falsi" class="md-nav__link">
+    3. Metode Regula - Falsi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-metode-secant" class="md-nav__link">
+    4. Metode Secant
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/nadiaasri/edit/master/docs/Finding Roots.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="mencari-akar-persamaan"><strong>MENCARI AKAR PERSAMAAN</strong><a class="headerlink" href="#mencari-akar-persamaan" title="Permanent link">&para;</a></h1>
+<p>Dalam matematika dan komputasi, algoritma pencarian akar adalah algoritma untuk menemukan nol, juga disebut "root", dari fungsi kontinu. Nol fungsi <em>f</em>, dari bilangan real ke bilangan real atau dari bilangan kompleks ke bilangan kompleks, adalah bilangan x sedemikian rupa sehingga <em>f</em>(<em>x</em>) = 0. </p>
+<h3 id="1-metode-bisection"><strong>1. Metode Bisection</strong><a class="headerlink" href="#1-metode-bisection" title="Permanent link">&para;</a></h3>
+<p>Bisection adalah algoritma pencarian akar pada sebuah interval. Interval tersebut membagi dua bagian, lalu memilih dari dua bagian ini dipilih bagian mana yang mengandung akar dan bagian yang tidak mengandung akar dibuang. Hal ini dilakukan berulang-ulang hingga diperoleh akar 
+persamaan atau mendekati akar persamaan. Metode ini berlaku ketika ingin memecahkan persamaan <em>f</em>(<em>x</em>) = 0 dengan <em>f</em> merupakan fungsi kontinyu.</p>
+<p><img alt="" src="../bisection.jpg" /></p>
+<p>Rumus bisection : <strong><em>f</em>(a)*<em>f</em>(b) &lt;</strong> <strong>0</strong></p>
+<p>Prosedur Metode Bagi-Dua :</p>
+<ul>
+<li>Misal dijamin bahwa <em>f(x)</em> adalah fungsi kontinyu pada interval [a, b]  dan <em>f</em>(a)<em>f</em>(b) &lt; 0. Ini artinya bahwa <em>f(x)</em> paling tidak harus memiliki  akar pada interval [a, b].</li>
+<li>Kemudian definisikan titik tengah pada interval [a, b] yaitu c :=.  Dari sini kita memperoleh dua subinterval yaitu [a, c] dan [c, b].</li>
+<li>Setelah itu, cek apakah <em>f</em>(a)<em>f</em>(c) &lt; 0 atau <em>f</em>(b)<em>f</em>(c) &lt; 0 ? </li>
+<li>Jika <em>f</em>(a)<em>f</em>(c) &lt; 0 maka b = c (artinya titik b digantikan oleh  titik c yang berfungsi sebagai titik b pada iterasi berikutnya),</li>
+<li>jika tidak maka a = c. Dari iterasi pertama kita memperoleh interval [a, b] yang baru dan titik tengah c yang baru.</li>
+<li>Kemudian lakukan pengecekan lagi seperti sebelumnya sampai memperoleh error yang cukup kecil.</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">bisection</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+
+    <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Bisection method fails.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">None</span>
+    <span class="n">a_n</span> <span class="o">=</span> <span class="n">a</span>
+    <span class="n">b_n</span> <span class="o">=</span> <span class="n">b</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">m_n</span> <span class="o">=</span> <span class="p">(</span><span class="n">a_n</span> <span class="o">+</span> <span class="n">b_n</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+        <span class="n">f_m_n</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">m_n</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">)</span><span class="o">*</span><span class="n">f_m_n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">a_n</span> <span class="o">=</span> <span class="n">a_n</span>
+            <span class="n">b_n</span> <span class="o">=</span> <span class="n">m_n</span>
+            <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;a = &quot;</span><span class="p">,</span><span class="n">a_n</span><span class="p">)</span>
+            <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;b = &quot;</span><span class="p">,</span><span class="n">b_n</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">f</span><span class="p">(</span><span class="n">b_n</span><span class="p">)</span><span class="o">*</span><span class="n">f_m_n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">a_n</span> <span class="o">=</span> <span class="n">m_n</span>
+            <span class="n">b_n</span> <span class="o">=</span> <span class="n">b_n</span>
+            <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;a = &quot;</span><span class="p">,</span><span class="n">a_n</span><span class="p">)</span>
+            <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;b = &quot;</span><span class="p">,</span><span class="n">b_n</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">f_m_n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Found exact solution.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">m_n</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Bisection method fails.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="bp">None</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">a_n</span> <span class="o">+</span> <span class="n">b_n</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+
+<span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span><span class="mi">6</span>
+<span class="n">approx_phi</span> <span class="o">=</span> <span class="n">bisection</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">2.5</span><span class="p">,</span><span class="mi">25</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;x = &quot;</span><span class="p">,</span><span class="n">approx_phi</span><span class="p">)</span>
+<span class="c1">##error_bound = 2**(-26)</span>
+<span class="c1">##print(error_bound)</span>
+<span class="c1">##print(abs( (1 + 5**0.5)/2 - approx_phi) &lt; error_bound)</span>
+</pre></div>
+
+
+<p>contoh running</p>
+<div class="codehilite"><pre><span></span><span class="n">a</span> <span class="o">=</span>  <span class="mf">1.75</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.5</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.75</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.03125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.984375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.03125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.984375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0078125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.99609375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0078125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.99609375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.001953125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9990234375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.001953125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9990234375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.00048828125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.999755859375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.00048828125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.999755859375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0001220703125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.99993896484375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0001220703125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.99993896484375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000030517578125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999847412109375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000030517578125</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999847412109375</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000076293945312</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999961853027344</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000076293945312</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999961853027344</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000001907348633</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999990463256836</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000001907348633</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999990463256836</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000000476837158</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.999999761581421</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.000000476837158</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.999999761581421</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000001192092896</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999999403953552</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000001192092896</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999999403953552</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000000298023224</span>
+<span class="n">a</span> <span class="o">=</span>  <span class="mf">1.9999999850988388</span>
+<span class="n">b</span> <span class="o">=</span>  <span class="mf">2.0000000298023224</span>
+<span class="n">x</span> <span class="o">=</span>  <span class="mf">2.0000000074505806</span>
+</pre></div>
+
+
+<h3 id="2-metode-newtoon-raphson"><strong>2. Metode Newtoon - Raphson</strong><a class="headerlink" href="#2-metode-newtoon-raphson" title="Permanent link">&para;</a></h3>
+<p>Metode Newton-Raphson adalah sebuah metode yang tentu saja ditemukan oleh Issac Newton melalui sebuah pendekatan yang menggunakan satu titik awal dan mendekatinya dengan memperhatikan kemiringan kurva pada titik tersebut. Penjelasan grafis mengenai lebih lanjut terhadap metode ini bisa dilihat pada gambar dibawah ini.</p>
+<p><img alt="" src="../newton.jpg" /></p>
+<p>Diasumsikan bahwa fungsi <em>f(x)</em> adalah kontinu. Idenya adalah menghitung akar yang merupakan titik potong antara sumbu x dengan garis singgung pada kurva di titik (xn-1; <em>f</em> (xn-1)). Kemiringan kurva di titik tersebut adalah <em>f”</em>(xn-1), sehingga garis singgung mempunyai persamaan sebagai berikut :</p>
+<p><img alt="" src="../newton2.jpg" /></p>
+<p>karena itu maka diperoleh sebuah akar perkiraan dengan mengambil sebuah nilai y = 0, sehingga akan menghasilkan sebuah persamaan lagi yang baru yaitu :</p>
+<p><img alt="" src="../newton3.jpg" /></p>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">newton</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">Df</span><span class="p">,</span><span class="n">x0</span><span class="p">,</span><span class="n">epsilon</span><span class="p">,</span><span class="n">max_iter</span><span class="p">):</span>
+    <span class="n">xn</span> <span class="o">=</span> <span class="n">x0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">max_iter</span><span class="p">):</span>
+        <span class="n">fxn</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">xn</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fxn</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">epsilon</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Found solution after&#39;</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="s1">&#39;iterations.&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">xn</span>
+        <span class="n">Dfxn</span> <span class="o">=</span> <span class="n">Df</span><span class="p">(</span><span class="n">xn</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">Dfxn</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Zero derivative. No solution found.&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="bp">None</span>
+        <span class="n">xn</span> <span class="o">=</span> <span class="n">xn</span> <span class="o">-</span> <span class="n">fxn</span><span class="o">/</span><span class="n">Dfxn</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Exceeded maximum iterations. No solution found.&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">None</span>
+<span class="n">p</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="n">Dp</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span>
+<span class="n">approx</span> <span class="o">=</span> <span class="n">newton</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="n">Dp</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">1e-10</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span>
+<span class="c1">##f = lambda x: x**(1/3)</span>
+<span class="c1">##Df = lambda x: (1/3)*x**(-2/3)</span>
+<span class="c1">##approx = newton(f,Df,0.1,1e-2,100)</span>
+</pre></div>
+
+
+<p>contoh running</p>
+<div class="codehilite"><pre><span></span><span class="n">Found</span> <span class="n">solution</span> <span class="n">after</span> <span class="mi">6</span> <span class="n">iterations</span><span class="o">.</span>
+<span class="mf">1.4655712318767877</span>
+</pre></div>
+
+
+<h3 id="3-metode-regula-falsi">3. Metode Regula - Falsi<a class="headerlink" href="#3-metode-regula-falsi" title="Permanent link">&para;</a></h3>
+<p>Metode Regula Falsi adalah salah satu metode numerik yang digunakan untuk mencari akar dari suatu persamaan dengan memanfaatkan kemiringan dan selisih tinggi dari dari dua titik batas range. Sebenarnya metode ini hampir sama dengan Metode Biseksi, tapi titik pendekatan yang digunakan pada metode ini berbeda dengan Metode Biseksi. Rumus titik pendekatan tersebut adalah :</p>
+<p><img alt="" src="../falsi3.jpg" /> <img alt="" src="../falsi2.png" /></p>
+<p>Keterangan :</p>
+<p>a = X0
+b = X1
+m = X2</p>
+<p>Metode regula falsi merupakan salah satu metode  tertutup untuk menentukan solusi akar dari persamaan non linier. Berikut  langkah penyelesaiannya :</p>
+<p>1) Tentukan interval [X0, X1] yang memuat akar</p>
+<p>2) Tentukan titik X2 dengan menarik garis lurus dari titik [X0, <em>f</em>(X0)] ke titik [X1, <em>f</em>(X1)] titik X2 adalah titik potong garis dengan sumbu X.</p>
+<p>X2 = X0 * <em>f</em>(X1) - X1 * <em>f</em>(X0) / <em>f</em>(X1) - <em>f</em>(X0)</p>
+<p>X2 = X1 - [ (X1 -X0) / <em>f</em>(X1) - <em>f</em>(X0) ] * <em>f</em>(X1) [P] X2 = X1 - P * <em>f</em>(X1)</p>
+<p>3) Suatu kondisi bila :</p>
+<p><em>f</em>(X0) * <em>f</em>(X2) &lt; 0 Maka akar pada [X0, X2] , X2 = X1</p>
+<p><em>f</em>(X0) * <em>f</em>(X2) = 0 akar = X2</p>
+<p><em>f</em>(X0) * <em>f</em>(X2) &gt; 0 Maka akar pada [X2, X1], X2 = X0</p>
+<p>4) Pengulangan / iterasi mencari X2 dan interval baru dilakukan berdasarkan nilai toleransi | (X2 - X)1 / X1 | atau | (X2 - X0) / X0 |</p>
+<p>5) Kelemahan : Hanya salah satu ujung titik interval ( X0 atau X1 ) yang bergerak menuju akar dan yang lain selalu tetap untuk setiap iterasi [ nilai bersifat mutlak ]</p>
+<div class="codehilite"><pre><span></span><span class="n">error</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mf">2.1</span>
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">6</span>
+
+<span class="k">def</span> <span class="nf">regulasi_falsi</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+    <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+    <span class="n">max_iter</span> <span class="o">=</span> <span class="mi">50</span>
+    <span class="n">iteration</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="k">while</span> <span class="n">iteration</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">max_iter</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">))</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)))</span> <span class="o">/</span> <span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">))</span> <span class="o">+</span> <span class="nb">abs</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)))</span>
+            <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">b</span> <span class="o">=</span> <span class="n">x</span>
+                <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">a</span> <span class="o">=</span> <span class="n">x</span>
+                <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">error</span><span class="p">:</span>
+                <span class="n">iteration</span> <span class="o">=</span> <span class="bp">False</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;tidak di temukan akar&#39;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;x =&#39;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+
+
+<span class="n">regulasi_falsi</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Contoh Running</p>
+<div class="codehilite"><pre><span></span><span class="mf">2.0689655172413794</span>
+<span class="mf">2.047058823529412</span>
+<span class="mf">2.03187250996016</span>
+<span class="mf">2.0214765100671146</span>
+<span class="mf">2.0144209103199646</span>
+<span class="mf">2.009660377358491</span>
+<span class="mf">2.0064610569885417</span>
+<span class="mf">2.004316668071832</span>
+<span class="mf">2.0028819254864656</span>
+<span class="mf">2.0019231310978185</span>
+<span class="mf">2.0012829097997895</span>
+<span class="mf">2.0008556391024563</span>
+<span class="mf">2.0005705888076695</span>
+<span class="mf">2.0003804649014514</span>
+<span class="mf">2.0002536754391684</span>
+<span class="mf">2.000169131260928</span>
+<span class="mf">2.0001127605310622</span>
+<span class="mf">2.000075176513023</span>
+<span class="mf">2.0000501189312705</span>
+<span class="mf">2.0000334131790583</span>
+<span class="mf">2.000022275700806</span>
+<span class="mf">2.0000148505774735</span>
+<span class="mf">2.0000099004339917</span>
+<span class="mf">2.00000660031111</span>
+<span class="mf">2.0000044002170876</span>
+<span class="mf">2.0000029334823615</span>
+<span class="mf">2.0000019556568196</span>
+<span class="mf">2.0000013037720628</span>
+<span class="mf">2.000000869181753</span>
+<span class="mf">2.00000057945467</span>
+<span class="mf">2.0000003863031877</span>
+<span class="mf">2.000000257535491</span>
+<span class="mf">2.000000171690342</span>
+<span class="mf">2.0000001144602346</span>
+<span class="mf">2.0000000763068257</span>
+<span class="mf">2.000000050871219</span>
+<span class="mf">2.0000000339141466</span>
+<span class="mf">2.0000000226094317</span>
+<span class="mf">2.000000015072955</span>
+<span class="mf">2.000000010048637</span>
+<span class="mf">2.000000006699091</span>
+<span class="mf">2.000000004466061</span>
+<span class="mf">2.0000000029773735</span>
+<span class="mf">2.000000001984916</span>
+<span class="mf">2.0000000013232775</span>
+<span class="mf">2.000000000882185</span>
+<span class="mf">2.0000000005881233</span>
+<span class="mf">2.0000000003920824</span>
+<span class="mf">2.000000000261388</span>
+<span class="mf">2.000000000174259</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mf">2.000000000174259</span>
+</pre></div>
+
+
+<h3 id="4-metode-secant"><strong>4. Metode Secant</strong><a class="headerlink" href="#4-metode-secant" title="Permanent link">&para;</a></h3>
+<p>Metode secant merupakan perbaikan dari metode regula-falsi dan newton raphson dimana kemiringan dua titik dinyatakan sacara diskrit, dengan mengambil bentuk garis lurus yang melalui satu titik. Tujuan metode secant adalah untuk menyelesaikan masalah yang terdapat pada metode Newton-Raphson yang terkadang sulit mendapatkan turunan pertama yaitu <em>f‘ (x)</em>. Fungsi metode secant adalah untuk menaksirkan akar dengan menggunakan diferensi daripada turunan untuk memperkirakan kemiringan/slope.</p>
+<p><img alt="" src="../secant.png" /></p>
+<p><strong><em>f’ (x)</em> = ( <em>f (xn)</em> – <em>f (xn-1))</em> / *(xn – xn-1)</strong>*
+<strong>xn+1 = xn – ( (<em>f(xn) (xn – xn-1)) / ( </em>f(xn) -f(xn-1)* )</strong></p>
+<p><strong>Algoritma Metode Secant :</strong></p>
+<ol>
+<li>Definisikan fungsi <em>f(x)</em></li>
+<li>Definisikan torelansi error (e) dan iterasi maksimum (n)</li>
+<li>Masukkan dua nilai pendekatan awal yang di antaranya terdapat akar yaitu x0 dan x1,sebaiknya gunakan metode tabel atau grafis untuk menjamin titik pendakatannya adalah titik pendekatan yang 
+   konvergensinya pada akar persamaan yang diharapkan.</li>
+<li>Hitung <em>f(x0)</em> dan <em>f(x1)</em> sebagai y0 dan y1</li>
+<li>Untuk iterasi I = 1 s/d n atau |<em>f(xn)</em>|
+   Xn+1 = Xn – Yn (Xn – Xn-1 / Yn – Yn-1)</li>
+<li>Akar persamaan adalah nilai x yang terakhir.</li>
+</ol>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">secant</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Secant method fails.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">None</span>
+    <span class="n">a_n</span> <span class="o">=</span> <span class="n">a</span>
+    <span class="n">b_n</span> <span class="o">=</span> <span class="n">b</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">m_n</span> <span class="o">=</span> <span class="n">a_n</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">b_n</span> <span class="o">-</span> <span class="n">a_n</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">b_n</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">))</span>
+        <span class="n">f_m_n</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">m_n</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">)</span><span class="o">*</span><span class="n">f_m_n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">a_n</span> <span class="o">=</span> <span class="n">a_n</span>
+            <span class="n">b_n</span> <span class="o">=</span> <span class="n">m_n</span>
+        <span class="k">elif</span> <span class="n">f</span><span class="p">(</span><span class="n">b_n</span><span class="p">)</span><span class="o">*</span><span class="n">f_m_n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">a_n</span> <span class="o">=</span> <span class="n">m_n</span>
+            <span class="n">b_n</span> <span class="o">=</span> <span class="n">b_n</span>
+        <span class="k">elif</span> <span class="n">f_m_n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Found exact solution.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">m_n</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Secant method fails.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="bp">None</span>
+    <span class="k">return</span> <span class="n">a_n</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">b_n</span> <span class="o">-</span> <span class="n">a_n</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">b_n</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">a_n</span><span class="p">))</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">6</span>
+<span class="k">print</span><span class="p">(</span><span class="n">p</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">p</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">approx</span> <span class="o">=</span> <span class="n">secant</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">2.5</span><span class="p">,</span><span class="mi">25</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Contoh running</p>
+<div class="codehilite"><pre><span></span><span class="mi">2</span>
+<span class="mi">0</span>
+<span class="mf">2.0000000149011603</span>
+</pre></div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Eror Dalam Komputasi Numerik/" title="Eror Dalam Komputasi Numerik" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Eror Dalam Komputasi Numerik
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 - 2020 Nadia Asri
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://www.instagram.com/dysrine/" class="md-footer-social__link fa fa-instagram"></a>
+    
+      <a href="https://github.com/NadiaAsri" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
