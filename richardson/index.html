@@ -13,7 +13,7 @@
         <meta name="description" content="Repository Untuk Tugas">
       
       
-        <link rel="canonical" href="https://NadiaAsri.github.io/romberg/">
+        <link rel="canonical" href="https://NadiaAsri.github.io/richardson/">
       
       
         <meta name="author" content="Nadia Asri">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Metode Romberg - (180411100063) Nadia Asri</title>
+        <title>Richardson - (180411100063) Nadia Asri</title>
       
     
     
@@ -118,7 +118,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#romberg-method" tabindex="1" class="md-skip">
+      <a href="#richardson-extrapolation" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -144,7 +144,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Metode Romberg
+                Richardson
               
             </span>
           
@@ -456,6 +456,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../romberg/" title="Metode Romberg" class="md-nav__link">
+      Metode Romberg
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -467,11 +479,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Metode Romberg
+        Richardson
       </label>
     
-    <a href="./" title="Metode Romberg" class="md-nav__link md-nav__link--active">
-      Metode Romberg
+    <a href="./" title="Richardson" class="md-nav__link md-nav__link--active">
+      Richardson
     </a>
     
       
@@ -485,22 +497,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#algoritma" class="md-nav__link">
-    Algoritma :
+  <a href="#teori" class="md-nav__link">
+    Teori
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#contoh-soal" class="md-nav__link">
-    Contoh Soal :
+  <a href="#contoh-program" class="md-nav__link">
+    Contoh Program
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-program" class="md-nav__link">
-    Code Program :
+  <a href="#hasil-running" class="md-nav__link">
+    Hasil Running
   </a>
   
 </li>
@@ -513,18 +525,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../richardson/" title="Richardson" class="md-nav__link">
-      Richardson
-    </a>
   </li>
 
         
@@ -554,22 +554,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#algoritma" class="md-nav__link">
-    Algoritma :
+  <a href="#teori" class="md-nav__link">
+    Teori
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#contoh-soal" class="md-nav__link">
-    Contoh Soal :
+  <a href="#contoh-program" class="md-nav__link">
+    Contoh Program
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-program" class="md-nav__link">
-    Code Program :
+  <a href="#hasil-running" class="md-nav__link">
+    Hasil Running
   </a>
   
 </li>
@@ -590,62 +590,75 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/nadiaasri/edit/master/docs/romberg.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/nadiaasri/edit/master/docs/richardson.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="romberg-method"><strong>ROMBERG METHOD</strong><a class="headerlink" href="#romberg-method" title="Permanent link">&para;</a></h1>
-<p>Metode Romberg adalah metode perhitungan yang didasarkan trapezional rule dan error calcultion sehingga dapat menghasilan nilai integral dengan tingkat presisi yang tinggi. Metode integrasi Romberg didasarkan pada perluasan ekstrapolasi Richardson untuk memperoleh nilai integrasi yang semakin baik.</p>
-<p>Metode  ini sering digunakan untuk memperbaiki hasil aproksimasi oleh metode  selisih terhingga. Metode ini dipakai untuk evaluasi numerik dari  integral tentu. Untuk dua interval bagian yang berbeda yang panjangnya  h1 dan h2 akan diperoleh aproksimasi nilai-nilai I1 dan I2 . Kemudian  diperoleh kekeliruan E1 dan E2.</p>
-<h3 id="algoritma"><strong>Algoritma :</strong><a class="headerlink" href="#algoritma" title="Permanent link">&para;</a></h3>
-<p>1) Cari nilai A0,A2…..Ak berdasarkan n, dimana : n=2^k = jumlah interasi, dan dimana k /pias =(0,1,2,3,4,5,6)</p>
-<p>2) Tentukan nilai tabel iterasi, dimana : </p>
-<ul>
-<li>r    = iterasi ke-</li>
-<li>Xr  = h = ( b-a ) / n</li>
-<li>fr   = Xr yang telah dimasukan ke dalam fungsi / integral</li>
-</ul>
-<p><img alt="" src="../romberg1.PNG" /></p>
-<p><img alt="" src="../romberg2.PNG" /></p>
-<p><img alt="" src="../romberg3.PNG" /></p>
-<p><img alt="" src="../romberg4.PNG" /></p>
-<p><img alt="" src="../romberg5.PNG" /></p>
-<p><img alt="" src="../romberg6.PNG" /></p>
-<p><img alt="" src="../romberg7.PNG" /></p>
-<p><img alt="" src="../romberg8.PNG" /></p>
-<p><img alt="" src="../romberg9.PNG" /></p>
-<p><img alt="" src="../romberg10.PNG" /></p>
-<p><img alt="" src="../romberg11.PNG" /></p>
-<h3 id="contoh-soal"><strong>Contoh Soal :</strong><a class="headerlink" href="#contoh-soal" title="Permanent link">&para;</a></h3>
-<p><img alt="" src="../romberg12.PNG" /></p>
-<p><img alt="" src="../romberg13.PNG" /></p>
-<p><img alt="" src="../romberg14.PNG" /></p>
-<h3 id="code-program"><strong>Code Program :</strong><a class="headerlink" href="#code-program" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span> <span class="c1"># import numpy and scipy.integrate</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span> <span class="nn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">integrate</span> <span class="kn">from</span> <span class="nn">integrate</span> <span class="kn">import</span> <span class="n">scipy</span>
-<span class="n">gfg</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="o">*</span> <span class="mi">2</span> <span class="p">)</span> <span class="n">gfg</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="o">*</span> <span class="mi">2</span> <span class="p">)</span>
+                <h1 id="richardson-extrapolation"><strong>Richardson Extrapolation</strong><a class="headerlink" href="#richardson-extrapolation" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Dalam analisis numerik, Richardson Extrapolation adalah metode percepatan urutan, yang digunakan untuk meningkatkan laju konvergensi suatu urutan. </p>
+<p>Richardson Extrapolation termasuk integrasi Romberg, yang menerapkan ekstrapolasi Richardson pada aturan trapesium, dan algoritma Bulirsch-Stoer untuk menyelesaikan persamaan diferensial biasa.</p>
+</blockquote>
+<h3 id="teori"><strong>Teori</strong><a class="headerlink" href="#teori" title="Permanent link">&para;</a></h3>
+<p>Dalam rumus :</p>
+<p><strong><em>( f (x + h) - f (x - h) ) / (2 h)</em></strong></p>
+<p>untuk nilai h yang sangat kecil, dua fungsi evaluasi <em>f (x + h)</em> dan <em>f (x - h)</em> akan menjadi kira-kira sama, dan oleh karena itu pembatalan subtraktif akan terjadi. Oleh karena itu, tidak disarankan untuk menggunakan nilai h yang semakin kecil.</p>
+<p>Kita dapat mencoba untuk memperkirakan nilai tepat <em>e</em> dengan perkiraan <em>a(h)</em>. Dalam hal ini, <em>e</em> adalah turunan dari <em>f (1) (x)</em> dan perkiraannya adalah <em>( h ) = (f (x + h) - f (x - h)) / (2 h)</em>. Misalkan sekarang bahwa kesalahan aproksimasi didefinisikan oleh serangkaian bentuk Taylor :</p>
+<p align = "center"><i>e = a(h) + K h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
 
-<span class="c1"># using scipy.integrate.romberg()</span>
-<span class="n">geek</span> <span class="o">=</span> <span class="n">integrate</span><span class="o">.</span><span class="n">romberg</span><span class="p">(</span><span class="n">gfg</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="n">show</span> <span class="o">=</span> <span class="bp">True</span> <span class="p">)</span> <span class="n">geek</span> <span class="o">=</span> <span class="n">integrate</span><span class="o">.</span><span class="n">romberg</span><span class="p">(</span><span class="n">gfg</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="n">show</span> <span class="o">=</span> <span class="bp">True</span> <span class="p">)</span>
+<p>Apabila menggunakan <em>h / 2</em> :</p>
+<p align = "center"><i>e = a(h/2) + K (h/2)n + o((h/2)n)</i>
+<br><i>= a(h/2) + K/2n h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
 
-<span class="k">print</span> <span class="p">(</span><span class="n">geek</span><span class="p">)</span>
+<p>Mengalikan kedua ekspresi ini dengan 2<em>n</em> dan mengurangi hasil persamaan pertama</p>
+<p align = "center"><i>2n<sup>e</sup> − e = 2na(h/2) − a(h) + K/2n h<sup>n</sup> − K h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
+
+<p>Perhatikan bahwa istilah h<sup>n</sup> dibatalkan dan kita dibiarkan dengan</p>
+<p align = "center"><i>(2n − 1)e = 2na(h/2) − a(h) + o(h<sup>n</sup>)</i></p>
+
+<p>Jika kita melihat seri Taylor lengkap untuk rumus perbedaan-terpusat yang terpusat, kita perhatikan bahwa istilah kesalahannya dalam bentuk Knh<sup>n</sup>. Dapat kita tulis dengan :</p>
+<p align = center><i>K1 = −1/6 f(3)(x)h<sup>2</sup>, etc.</i></p>
+
+<h3 id="contoh-program"><strong>Contoh Program</strong><a class="headerlink" href="#contoh-program" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">def</span> <span class="nf">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
+    <span class="n">Z</span><span class="o">=</span><span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">Z</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">m</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span>
+
+<span class="k">def</span> <span class="nf">D</span><span class="p">(</span><span class="n">Func</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">h</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">Func</span><span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="n">h</span><span class="p">)</span><span class="o">-</span><span class="n">Func</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">h</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">h</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">Richardson_dif</span><span class="p">(</span><span class="n">func</span><span class="p">,</span><span class="n">a</span><span class="p">):</span> 
+    <span class="sd">&#39;&#39;&#39;Richardson extrapolation method for numerical calculation of first derivative &#39;&#39;&#39;</span>
+    <span class="n">k</span><span class="o">=</span><span class="mi">9</span> 
+    <span class="n">L</span><span class="o">=</span><span class="n">zeros</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">I</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="p">):</span>
+        <span class="n">L</span><span class="p">[</span><span class="n">I</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">D</span><span class="p">(</span><span class="n">func</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="p">(</span><span class="n">I</span><span class="o">+</span><span class="mi">1</span><span class="p">)))</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="o">-</span><span class="n">j</span><span class="p">):</span>
+            <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="p">((</span><span class="mi">4</span><span class="o">**</span><span class="p">(</span><span class="n">j</span><span class="p">))</span><span class="o">*</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="mi">4</span><span class="o">**</span><span class="p">(</span><span class="n">j</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">L</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; DIFERENSIASI NUMERIK DARI &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;f = -0.1*x**4-0.15*x**3-0.5*x**2-0.25*x+1.2 dengan x = 0.5&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%04.20f</span><span class="s1">&#39;</span><span class="o">%</span><span class="n">Richardson_dif</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.1</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span><span class="o">-</span><span class="mf">0.15</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span><span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="mf">0.25</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mf">1.2</span> <span class="p">,</span><span class="mf">0.5</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;diff(2**cos(pi+sin(x)) dengan x = pi/2 adalah = </span><span class="si">%04.20f</span><span class="s1">&#39;</span><span class="o">%</span><span class="n">Richardson_dif</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">2</span><span class="o">**</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">+</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)),</span><span class="n">pi</span><span class="o">/</span><span class="mi">3</span><span class="p">))</span>
 </pre></div>
 
 
-<p>run</p>
-<div class="codehilite"><pre><span></span>    <span class="n">Romberg</span> <span class="n">integration</span> <span class="n">of</span> <span class="o">&lt;</span><span class="n">function</span> <span class="n">vectorize1</span><span class="o">..</span><span class="n">vfunc</span> <span class="n">at</span> <span class="mh">0x00000209C3641EA0</span><span class="o">&gt;</span> <span class="kn">from</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="n">Romberg</span> <span class="n">integrasi</span> <span class="o">&lt;</span><span class="n">function</span> <span class="n">vectorize1</span><span class="o">..</span><span class="n">vfunc</span> <span class="n">di</span> <span class="mh">0x00000209C3641EA0</span><span class="o">&gt;</span> <span class="n">dari</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
-
-     <span class="n">Steps</span> <span class="n">StepSize</span> <span class="n">Results</span> <span class="n">Langkah</span> <span class="n">StepSize</span> <span class="n">Hasil</span>
-         <span class="mi">1</span> <span class="mf">3.000000</span> <span class="mf">1.500185</span> <span class="mi">1</span> <span class="mf">3.000000</span> <span class="mf">1.500185</span>
-         <span class="mi">2</span> <span class="mf">1.500000</span> <span class="mf">0.908191</span> <span class="mf">0.710860</span> <span class="mi">2</span> <span class="mf">1.500000</span> <span class="mi">0</span><span class="p">,</span><span class="mi">908191</span> <span class="mi">0</span><span class="p">,</span><span class="mi">710860</span>
-         <span class="mi">4</span> <span class="mf">0.750000</span> <span class="mf">0.886180</span> <span class="mf">0.878843</span> <span class="mf">0.890042</span> <span class="mi">4</span> <span class="mf">0.750000</span> <span class="mf">0.886180</span> <span class="mf">0.878843</span> <span class="mf">0.890042</span>
-         <span class="mi">8</span> <span class="mf">0.375000</span> <span class="mf">0.886199</span> <span class="mf">0.886206</span> <span class="mf">0.886696</span> <span class="mf">0.886643</span> <span class="mi">8</span> <span class="mf">0.375000</span> <span class="mf">0.886199</span> <span class="mf">0.886206</span> <span class="mf">0.886696</span> <span class="mf">0.886643</span>
-        <span class="mi">16</span> <span class="mf">0.187500</span> <span class="mf">0.886205</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886200</span> <span class="mf">0.886198</span> <span class="mi">16</span> <span class="mf">0.187500</span> <span class="mf">0.886205</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886200</span> <span class="mf">0.886198</span>
-        <span class="mi">32</span> <span class="mf">0.093750</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mi">32</span> <span class="mi">0</span><span class="p">,</span><span class="mi">093750</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span>
-        <span class="mi">64</span> <span class="mf">0.046875</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mi">64</span> <span class="mf">0.046875</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span>
-       <span class="mi">128</span> <span class="mf">0.023438</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mi">128</span> <span class="mf">0.023438</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span> <span class="mf">0.886207</span>
-
-    <span class="n">The</span> <span class="n">final</span> <span class="n">result</span> <span class="ow">is</span> <span class="mf">0.8862073482595311</span> <span class="n">after</span> <span class="mi">129</span> <span class="n">function</span> <span class="n">evaluations</span><span class="o">.</span> <span class="n">Hasil</span> <span class="n">akhir</span> <span class="n">adalah</span> <span class="mi">0</span><span class="p">,</span><span class="mi">8862073482595311</span> <span class="n">setelah</span> <span class="mi">129</span> <span class="n">evaluasi</span> <span class="n">fungsi</span><span class="o">.</span>
+<h3 id="hasil-running"><strong>Hasil Running</strong><a class="headerlink" href="#hasil-running" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> <span class="n">DIFERENSIASI</span> <span class="n">NUMERIK</span> <span class="n">DARI</span> <span class="o">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span>
+<span class="o">=======================================================================</span>
+<span class="n">f</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.1</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span><span class="o">-</span><span class="mf">0.15</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span><span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="mf">0.25</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mf">1.2</span> <span class="n">dengan</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="o">=======================================================================</span>
+<span class="o">-</span><span class="mf">0.91250000000000530687</span>
+<span class="o">=======================================================================</span>
+<span class="n">diff</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">+</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="n">dengan</span> <span class="n">x</span> <span class="o">=</span> <span class="n">pi</span><span class="o">/</span><span class="mi">2</span> <span class="n">adalah</span> <span class="o">=</span> <span class="mf">0.16849558398154249050</span>
+<span class="o">&gt;&gt;&gt;</span> 
 </pre></div>
                 
                   
@@ -667,7 +680,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Finding Roots/" title="Finding roots" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../romberg/" title="Metode Romberg" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -676,25 +689,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Finding roots
+                Metode Romberg
               </span>
             </div>
           </a>
         
-        
-          <a href="../richardson/" title="Richardson" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Richardson
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
