@@ -2,7 +2,7 @@
 site_name: '(180411100063) Nadia Asri'
 site_description: 'Repository Untuk Tugas'
 site_author: 'Nadia Asri'
-site_url: 'https://NadiaAsri2.github.io/'
+site_url: 'https://NadiaAsri.github.io/'
 
 # Repository
 repo_name: 'Nadia Asri'
@@ -13,6 +13,8 @@ copyright: 'Copyright &copy; 2019 - 2020 Nadia Asri'
 
 # Configuration
 theme:
+  feature:
+    tabs: true
   name: 'material'
   language: 'en'
   palette:
@@ -44,5 +46,18 @@ markdown_extensions:
   - toc:
       permalink: true
 nav :
-  - index : index.md
-  - Eror Dalam Komputasi Numerik : Eror Dalam Komputasi Numerik.md
+  - Penambangan Data :
+    - index : index.md
+    - statistik deskriptif : Statistik Dekriptif.md
+    - Jarak Data : jarak data.md
+    - Missing Value : Missing Value.md
+    - statistik deskriptif : Decision Tree.md
+    - K-Means Clustering : K-Means Clustering.md
+    - Regresi Linear : regresi.md
+  - Komputasi Numerik :
+    - index : profil.md
+    - Eror Dalam Komputasi Numerik : Eror Dalam Komputasi Numerik.md
+    - Finding roots : Finding Roots.md
+    - Metode Romberg : romberg.md
+    - Richardson : richardson.md
+    - Euler : euler.md
