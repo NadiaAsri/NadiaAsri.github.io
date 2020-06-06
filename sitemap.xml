@@ -2,67 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://NadiaAsri.github.io/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/Statistik Dekriptif/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/jarak data/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/Missing Value/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/Decision Tree/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/K-Means Clustering/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/regresi/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/profil/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/Eror Dalam Komputasi Numerik/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/Finding Roots/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/romberg/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/richardson/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://NadiaAsri.github.io/euler/</loc>
-     <lastmod>2020-04-25</lastmod>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://NadiaAsri.github.io/Monte Carlo Methode/</loc>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
